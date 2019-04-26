@@ -18,7 +18,7 @@ function getCountryInfo(nombre) {
 
 function mostrarInfo (country){
   console.log(country);
-  document.querySelectorAll('#contenedor')[0].innerHTML = "<div>Image: " + '<img src=' + country.sprites.front_default +'>'  + "</div>" + "<div>Id: " + country.id + "<div>Name: " + country.name +"<div>Height: " + country.height + "<div>Weight: " + country.weight+ "<div>Type: " + country.types[0].type.name + " " + country.types[1].type.name + "<div>Name: " + country.name
+  document.querySelectorAll('#contenedor')[0].innerHTML = "<div> " + '<img src=' + country.sprites.front_default +'>'  + "</div>" + "<div>Id: " + country.id + "<div>Name: " + country.name +"<div>Height: " + country.height + "<div>Weight: " + country.weight+ "<div>Type: " + country.types[0].type.name + " " + "<div>Name: " + country.name
 
 }
 
