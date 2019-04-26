@@ -8,7 +8,6 @@ a:focus,
 a:hover {
   color: #fff;
 }
-
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -18,8 +17,6 @@ a:hover {
   background-color: #fff;
   border: .05rem solid #fff;
 }
-
-
 /*
  * Base structure
  */
@@ -53,7 +50,6 @@ body {
 .masthead-brand {
   margin-bottom: 0;
 }
-
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
@@ -85,7 +81,6 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
@@ -96,8 +91,6 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
-
 /*
  * Footer
  */
@@ -105,5 +98,5 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 .inner_cover{
-  background-color: black;
+background-image: url("1.jpg");
 }
