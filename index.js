@@ -1,4 +1,3 @@
-
 //  FUNCIONES
 function getCountryInfo(nombre) {
   const requester = new XMLHttpRequest();
@@ -19,16 +18,13 @@ function getCountryInfo(nombre) {
 function mostrarInfo (country){
   console.log(country);
   document.querySelectorAll('#contenedor')[0].innerHTML = "<div> " + '<img src=' + country.sprites.front_default +'>'  + "</div>" + "<div>Id: " + country.id + "<div>Name: " + country.name +"<div>Height: " + country.height + "<div>Weight: " + country.weight+ "<div>Type: " + country.types[0].type.name + " " + "<div>Base Experience: " + country.base_experience
-
 }
 
 // VARIABLES
 const botonAñadir = document.querySelectorAll('#boton')[0];
 
-
 // BINDS Y EVENTOS
 botonAñadir.addEventListener('click', function() {
   let nombrePais = document.querySelectorAll('#input')[0].value;
   getCountryInfo(nombrePais);
-
 })
