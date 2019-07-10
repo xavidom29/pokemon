@@ -1,17 +1,13 @@
 {
-    "name": "Mi aplicación PWA",
-    "short_name": "Mi PWA",
-    "lang": "es-ES",
-    "start_url": "/",
-    "background_color": "#2C3E50",
-    "theme_color": "#18BC9C",
+    "name": "3rProject",
+    "short_name": "3rProject",
+    "start_url": "index.html",
     "display": "standalone",
-    "icons": [
-    {
-     "src": "logo.png",
-     "sizes": "512x512",
-     "type": "image\/png",
-     "density": "4.0"
-    }
-    ]
-   }
+    "icons": [{
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+    "background_color": "#FAFAFA",
+    "theme_color": "#FAFAFA"
+  }
